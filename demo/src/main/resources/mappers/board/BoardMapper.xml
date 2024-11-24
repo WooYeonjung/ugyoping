@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapperInterface.BoardMapper">
+	
+	<resultMap id="BoardResultMap" type="com.example.demo.board.model.dto.BoardDTO">
+		<id column="id" property="id"/>
+		<result column="user_id" property="userId"/>
+		<result column="title" property="title"/>
+		<result column="content" property="content"/>
+		<result column="cnt" property="cnt"/>
+		<result column="created_at" property="createdAt"/> 
+		<result column="updated_at" property="updatedAt"/>
+		<result column="status" property="status"/>
+	</resultMap>
+	
+	<select id="findAll" resultMap="BoardResultMap">
+		SELECT id, user_id, title, content, cnt,created_at, updated_at, status FROM board
+	</select>
+</mapper>

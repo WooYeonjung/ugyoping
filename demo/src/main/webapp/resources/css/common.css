@@ -1,0 +1,22 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	list-style: none;
+	
+}
+ul{
+	display: flex;
+	width:100%;
+}
+ul>li{
+	display:flex;
+	flex-direction: column;
+	
+}
+li>a {
+	text-decoration: none;
+	color:darkgray;
+}
+#resultArea1{
+	width:50%;
+}
