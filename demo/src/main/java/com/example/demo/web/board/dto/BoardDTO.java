@@ -1,4 +1,4 @@
-package com.example.demo.board.model.dto;
+package com.example.web.board.dto;
 
 import com.example.demo.board.model.enums.BoardStatus;
 import com.example.demo.common.model.dto.BaseDTO;
