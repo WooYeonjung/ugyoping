@@ -1,11 +1,12 @@
-package com.example.demo.board.service;
+package com.example.demo.service.serviceImpl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.demo.board.model.dto.BoardDTO;
-import com.example.demo.board.model.vo.BoardVO;
+import com.example.demo.domain.board.BoardVO;
+import com.example.demo.service.BoardService;
+import com.example.demo.web.board.dto.BoardDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;

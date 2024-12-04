@@ -1,4 +1,4 @@
-package com.example.demo.user.model.dto;
+package com.example.demo.web.user.dto;
 
 import com.example.demo.common.model.dto.BaseDTO;
 

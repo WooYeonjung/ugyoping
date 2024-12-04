@@ -1,7 +1,7 @@
-package com.example.web.board.dto;
+package com.example.demo.web.board.dto;
 
-import com.example.demo.board.model.enums.BoardStatus;
 import com.example.demo.common.model.dto.BaseDTO;
+import com.example.demo.domain.board.BoardStatus;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

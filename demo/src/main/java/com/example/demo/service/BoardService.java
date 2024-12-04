@@ -1,8 +1,8 @@
-package com.example.demo.board.service;
+package com.example.demo.service;
 
 import java.util.List;
 
-import com.example.demo.board.model.vo.BoardVO;
+import com.example.demo.domain.board.BoardVO;
 
 public interface BoardService {
 

@@ -1,4 +1,4 @@
-package com.example.demo.user.model.vo;
+package com.example.demo.domain.user;
 
 import java.time.LocalDateTime;
 

@@ -1,8 +1,6 @@
-package com.example.demo.board.model.vo;
+package com.example.demo.domain.board;
 
 import java.time.LocalDateTime;
-
-import com.example.demo.board.model.enums.BoardStatus;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
